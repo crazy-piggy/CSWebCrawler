@@ -7,7 +7,13 @@ namespace ConsoleApplication1
     {
         public static void main(string[] args)
         {
-            string str = SendHttpPost("https://www.
+            string str = SendHttpPost("https://www.baidu.com", "");
+            Console.WriteLine(str);
+            Console.ReadKey();
+        }
+        public static string SendHttpPost(string url, string paraJsonStr)
+        {
+            
         }
     }
 }
