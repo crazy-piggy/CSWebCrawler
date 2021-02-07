@@ -13,7 +13,7 @@ namespace ConsoleApplication1
         }
         public static string SendHttpPost(string url, string paraJsonStr)
         {
-            
+            WebClient webClient
         }
     }
 }
